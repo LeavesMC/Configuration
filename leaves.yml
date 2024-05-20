@@ -81,17 +81,14 @@ settings:
     remove:
       tick-guard-lambda: true
       inventory-contains-iterators: true
-      get-nearby-players-streams: true
       range-check-streams-and-iterators: true
       damage-lambda: true
     optimized-dragon-respawn: false
     dont-send-useless-entity-packets: true
     optimize-entity-coordinate-key: true
     enable-suffocation-optimization: true
-    strip-raytracing-for-entity: true
     check-spooky-season-once-an-hour: true
     optimize-chunk-ticking: true
-    skip-poi-find-in-vehicle: true
     entity-target-find-optimization: true
     use-more-thread-unsafe-random: true
     inactive-goal-selector-disable: false
@@ -111,10 +108,8 @@ settings:
     cache-BlockStatePairKey-hash: true
     optimize-noise-generation: false
     optimize-sun-burn-tick: true
-    use-optimized-collection: true
     optimized-CubePointRange: true
     check-frozen-ticks-before-landing-block: true
-    cache-ominous-banner-item: true
     skip-entity-move-if-movement-is-zero: true
     skip-cloning-advancement-criteria: false
     skip-negligible-planar-movement-multiplication: true
@@ -155,7 +150,7 @@ settings:
     server-lang: en_us
     server-mod-name: Leaves
     bstats-privacy-mode: false
-    force-minecraft-command: true
+    force-minecraft-command: false
   region:
     format: ANVIL
     linear:
@@ -163,6 +158,5 @@ settings:
       auto-convert-anvil-to-linear: false
       flush-max-threads: 1
       compression-level: 1
-      crash-on-broken-symlink: true
   fix:
     vanilla-hopper: false
