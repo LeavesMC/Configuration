@@ -151,6 +151,7 @@ settings:
     server-mod-name: Leaves
     bstats-privacy-mode: false
     force-minecraft-command: false
+    leaves-packet-event: true
   region:
     format: ANVIL
     linear:
