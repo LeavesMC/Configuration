@@ -1,6 +1,6 @@
 # Configuration file for Leaves.
 
-config-version: 5
+config-version: 6
 settings:
   modify:
     fakeplayer:
@@ -27,10 +27,11 @@ settings:
       copper-bulb-1gt-delay: false
       crafter-1gt-delay: false
       redstone-wire-dont-connect-if-on-trapdoor: false
-      mending-compatibility-infinity: false
       zero-tick-plants: false
       rng-fishing: false
-      protection-stacking: false
+      allow-grindstone-overstacking: false
+      allow-entity-portal-with-passenger: true
+      disable-gateway-portal-entity-ticking: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -95,12 +96,11 @@ settings:
     reduce-entity-allocations: true
     cache-climb-check: true
     biome-temperatures-use-aging-cache: true
-    reduce-entity-fluid-lookup: true
+    reduce-entity-fluid-lookup: false
     reduce-chuck-load-and-lookup: true
     improve-fluid-direction-caching: true
     cache-ignite-odds: true
     faster-chunk-serialization: true
-    optimize-world-generation-and-block-access: true
     cache-world-generator-sea-level: true
     skip-secondary-POI-sensor-if-absent: true
     cache-CubeVoxelShape-shape-array: true
