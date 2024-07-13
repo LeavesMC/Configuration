@@ -136,6 +136,8 @@ settings:
   misc:
     auto-update:
       enable: false
+      download-source: application
+      allow-experimental: false
       time:
       - '14:00'
       - '2:00'
