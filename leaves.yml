@@ -32,6 +32,7 @@ settings:
       allow-grindstone-overstacking: false
       allow-entity-portal-with-passenger: true
       disable-gateway-portal-entity-ticking: false
+      disable-LivingEntity-ai-step-alive-check: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
