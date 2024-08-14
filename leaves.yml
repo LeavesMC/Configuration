@@ -89,7 +89,6 @@ settings:
       damage-lambda: true
     optimized-dragon-respawn: false
     dont-send-useless-entity-packets: true
-    optimize-entity-coordinate-key: true
     enable-suffocation-optimization: true
     check-spooky-season-once-an-hour: true
     optimize-chunk-ticking: true
@@ -99,14 +98,12 @@ settings:
     reduce-entity-allocations: true
     cache-climb-check: true
     biome-temperatures-use-aging-cache: true
-    reduce-entity-fluid-lookup: false
     reduce-chuck-load-and-lookup: true
     improve-fluid-direction-caching: true
     cache-ignite-odds: true
     faster-chunk-serialization: true
     cache-world-generator-sea-level: true
     skip-secondary-POI-sensor-if-absent: true
-    cache-CubeVoxelShape-shape-array: true
     store-mob-counts-in-array: true
     cache-BlockStatePairKey-hash: true
     optimize-noise-generation: false
