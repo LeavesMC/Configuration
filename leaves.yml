@@ -166,3 +166,4 @@ settings:
       compression-level: 1
   fix:
     vanilla-hopper: false
+    spigot-EndPlatform-destroy: false
