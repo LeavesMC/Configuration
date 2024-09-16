@@ -15,9 +15,11 @@ settings:
       open-fakeplayer-inventory: false
       skip-sleep-check: false
       spawn-phantom: false
-      regen-amount: 0.01
+      regen-amount: 0.0
       use-action: true
       modify-config: false
+      manual-save-and-load: false
+      cache-skin: false
     minecraft-old:
       shears-in-dispenser-can-zero-amount: false
       instant-block-updater-reintroduced: false
