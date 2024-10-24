@@ -37,6 +37,9 @@ settings:
       disable-LivingEntity-ai-step-alive-check: false
       fix-fortress-mob-spawn: false
       old-block-entity-behaviour: false
+      revert-raid-changes:
+        allow-bad-omen-trigger-raid: false
+        give-bad-omen-when-kill-patrol-leader: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
