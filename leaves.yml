@@ -40,6 +40,7 @@ settings:
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
+      allow-anvil-destroy-item-entities: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -86,6 +87,7 @@ settings:
     renewable-coral: 'FALSE'
     fast-resume: false
     force-peaceful-mode: -1
+    disable-vault-blacklist: false
   performance:
     remove:
       tick-guard-lambda: true
