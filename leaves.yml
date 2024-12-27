@@ -10,25 +10,26 @@ settings:
       limit: 10
       prefix: ''
       suffix: ''
+      regen-amount: 0.0
       always-send-data: true
       resident-fakeplayer: false
       open-fakeplayer-inventory: false
       skip-sleep-check: false
       spawn-phantom: false
-      regen-amount: 0.0
       use-action: true
       modify-config: false
       manual-save-and-load: false
       cache-skin: false
     minecraft-old:
+      block-updater:
+        instant-block-updater-reintroduced: false
+        cce-update-suppression: false
+        redstone-wire-dont-connect-if-on-trapdoor: false
       shears-in-dispenser-can-zero-amount: false
-      instant-block-updater-reintroduced: false
       armor-stand-cant-kill-by-mob-projectile: false
-      cce-update-suppression: false
       villager-infinite-discounts: false
       copper-bulb-1gt-delay: false
       crafter-1gt-delay: false
-      redstone-wire-dont-connect-if-on-trapdoor: false
       zero-tick-plants: false
       rng-fishing: false
       allow-grindstone-overstacking: false
@@ -41,6 +42,7 @@ settings:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
       allow-anvil-destroy-item-entities: false
+      string-tripwire-hook-duplicate: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -58,7 +60,6 @@ settings:
     renewable-elytra: -1.0
     stackable-shulker-boxes: 'false'
     force-void-trade: false
-    disable-moved-wrongly-threshold: false
     mc-technical-survival-mode: true
     return-nether-portal-fix: false
     use-vanilla-random: false
@@ -92,27 +93,21 @@ settings:
     remove:
       tick-guard-lambda: true
       inventory-contains-iterators: true
-      range-check-streams-and-iterators: true
       damage-lambda: true
     optimized-dragon-respawn: false
     dont-send-useless-entity-packets: true
     enable-suffocation-optimization: true
     check-spooky-season-once-an-hour: true
-    optimize-chunk-ticking: true
-    entity-target-find-optimization: true
-    use-more-thread-unsafe-random: true
     inactive-goal-selector-disable: false
     reduce-entity-allocations: true
     cache-climb-check: true
     biome-temperatures-use-aging-cache: true
     reduce-chuck-load-and-lookup: true
-    improve-fluid-direction-caching: true
     cache-ignite-odds: true
     faster-chunk-serialization: true
     cache-world-generator-sea-level: true
     skip-secondary-POI-sensor-if-absent: true
     store-mob-counts-in-array: true
-    cache-BlockStatePairKey-hash: true
     optimize-noise-generation: false
     optimize-sun-burn-tick: true
     optimized-CubePointRange: true
@@ -133,15 +128,17 @@ settings:
     pca:
       pca-sync-protocol: false
       pca-sync-player-entity: OPS
-    bbor-protocol: false
-    jade-protocol: false
-    alternative-block-placement: NONE
-    appleskin-protocol: false
-    xaero-map-protocol: false
-    xaero-map-server-id: 0
+    appleskin:
+      protocol: false
+      sync-tick-interval: 20
     servux:
       structure-protocol: false
       entity-protocol: false
+    bbor-protocol: false
+    jade-protocol: false
+    alternative-block-placement: NONE
+    xaero-map-protocol: false
+    xaero-map-server-id: 0
     leaves-carpet-support: false
   misc:
     auto-update:
