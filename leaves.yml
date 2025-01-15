@@ -106,7 +106,6 @@ settings:
     reduce-chuck-load-and-lookup: true
     cache-ignite-odds: true
     faster-chunk-serialization: true
-    cache-world-generator-sea-level: true
     skip-secondary-POI-sensor-if-absent: true
     store-mob-counts-in-array: true
     optimize-noise-generation: false
