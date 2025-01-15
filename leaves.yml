@@ -38,6 +38,7 @@ settings:
       disable-LivingEntity-ai-step-alive-check: false
       fix-fortress-mob-spawn: false
       old-block-entity-behaviour: false
+      old-hopper-suck-in-behavior: false
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
