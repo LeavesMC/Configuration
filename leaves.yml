@@ -93,7 +93,6 @@ settings:
   performance:
     remove:
       tick-guard-lambda: true
-      inventory-contains-iterators: true
       damage-lambda: true
     optimized-dragon-respawn: false
     dont-send-useless-entity-packets: true
@@ -140,6 +139,8 @@ settings:
     xaero-map-protocol: false
     xaero-map-server-id: 0
     leaves-carpet-support: false
+    lms-paster-protocol: false
+    rei-server-protocol: false
   misc:
     auto-update:
       enable: false
@@ -164,9 +165,11 @@ settings:
   region:
     format: ANVIL
     linear:
-      flush-frequency: 10
+      version: V2
       auto-convert-anvil-to-linear: false
-      flush-max-threads: 1
+      flush-max-threads: 6
+      flush-delay-ms: 100
+      use-virtual-thread: true
       compression-level: 1
   fix:
     vanilla-hopper: false
