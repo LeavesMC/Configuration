@@ -133,6 +133,8 @@ settings:
     servux:
       structure-protocol: false
       entity-protocol: false
+      hud-metadata-protocol: false
+      hud-metadata-protocol-share-seed: true
     bbor-protocol: false
     jade-protocol: false
     alternative-block-placement: NONE
