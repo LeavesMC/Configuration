@@ -25,6 +25,7 @@ settings:
         instant-block-updater-reintroduced: false
         cce-update-suppression: false
         redstone-wire-dont-connect-if-on-trapdoor: false
+        old-block-entity-behaviour: false
       shears-in-dispenser-can-zero-amount: false
       armor-stand-cant-kill-by-mob-projectile: false
       villager-infinite-discounts: false
@@ -37,7 +38,6 @@ settings:
       disable-gateway-portal-entity-ticking: false
       disable-LivingEntity-ai-step-alive-check: false
       fix-fortress-mob-spawn: false
-      old-block-entity-behaviour: false
       old-hopper-suck-in-behavior: false
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
