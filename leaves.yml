@@ -42,6 +42,7 @@ settings:
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
+        skip-height-check: false
       allow-anvil-destroy-item-entities: false
       string-tripwire-hook-duplicate: false
     elytra-aeronautics:
