@@ -20,6 +20,7 @@ settings:
       modify-config: false
       manual-save-and-load: false
       cache-skin: false
+      tick-type: NETWORK
     minecraft-old:
       block-updater:
         instant-block-updater-reintroduced: false
