@@ -90,7 +90,13 @@ settings:
     renewable-sponges: false
     renewable-coral: 'FALSE'
     fast-resume: false
-    force-peaceful-mode: -1
+    force-peaceful-mode-switch:
+      tick: -1
+      types:
+      - BLAZE
+      - WITHER
+      - SHULKER
+      - WARDEN
     disable-vault-blacklist: false
   performance:
     remove:
