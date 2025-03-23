@@ -109,7 +109,6 @@ settings:
     inactive-goal-selector-disable: false
     reduce-entity-allocations: true
     cache-climb-check: true
-    biome-temperatures-use-aging-cache: true
     reduce-chuck-load-and-lookup: true
     cache-ignite-odds: true
     faster-chunk-serialization: true
