@@ -150,6 +150,7 @@ settings:
     leaves-carpet-support: false
     lms-paster-protocol: false
     rei-server-protocol: false
+    chat-image-protocol: false
     recipe-send-all: false
   misc:
     auto-update:
@@ -183,3 +184,4 @@ settings:
       compression-level: 1
   fix:
     vanilla-hopper: false
+    vanilla-display-name: false
