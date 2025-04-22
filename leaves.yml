@@ -151,7 +151,6 @@ settings:
     lms-paster-protocol: false
     rei-server-protocol: false
     chat-image-protocol: false
-    recipe-send-all: false
   misc:
     auto-update:
       enable: false
