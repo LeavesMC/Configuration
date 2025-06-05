@@ -95,7 +95,6 @@ settings:
     renewable-deepslate: false
     renewable-sponges: false
     renewable-coral: 'FALSE'
-    fast-resume: false
     force-peaceful-mode-switch:
       tick: -1
       types:
