@@ -25,8 +25,9 @@ settings:
       block-updater:
         instant-block-updater-reintroduced: false
         cce-update-suppression: false
-        redstone-wire-dont-connect-if-on-trapdoor: false
-        old-block-entity-behaviour: false
+        sound-update-suppression: false
+        redstone-ignore-upwards-update: false
+        old-block-remove-behaviour: false
       shears-in-dispenser-can-zero-amount: false
       armor-stand-cant-kill-by-mob-projectile: false
       villager-infinite-discounts: false
@@ -38,15 +39,20 @@ settings:
       allow-entity-portal-with-passenger: true
       disable-gateway-portal-entity-ticking: false
       disable-LivingEntity-ai-step-alive-check: false
-      fix-fortress-mob-spawn: false
+      spawn-invulnerable-time: false
       old-hopper-suck-in-behavior: false
+      old-nether-portal-collision: false
+      old-zombie-piglin-drop: false
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
         use-old-find-spawn-position: false
         skip-height-check: false
+      old-zombie-reinforcement: false
       allow-anvil-destroy-item-entities: false
-      string-tripwire-hook-duplicate: false
+      tripwire-and-hook-behavior:
+        string-tripwire-hook-duplicate: false
+        tripwire-behavior: VANILLA_21
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -76,7 +82,6 @@ settings:
     despawn-enderman-with-block: false
     creative-no-clip: false
     shave-snow-layers: true
-    ignore-lc: false
     disable-packet-limit: false
     lava-riptide: false
     no-block-update-command: false
@@ -99,6 +104,7 @@ settings:
       - SHULKER
       - WARDEN
     disable-vault-blacklist: false
+    exp-orb-absorb-mode: VANILLA
   performance:
     remove:
       tick-guard-lambda: true
@@ -178,7 +184,6 @@ settings:
     format: ANVIL
     linear:
       version: V2
-      auto-convert-anvil-to-linear: false
       flush-max-threads: 6
       flush-delay-ms: 100
       use-virtual-thread: true
@@ -186,3 +191,5 @@ settings:
   fix:
     vanilla-hopper: false
     vanilla-display-name: false
+    collision-behavior: BLOCK_SHAPE_VANILLA
+    vanilla-portal-handle: false
