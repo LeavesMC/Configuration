@@ -156,7 +156,6 @@ settings:
     xaero-map-protocol: false
     xaero-map-server-id: 0
     leaves-carpet-support: false
-    lms-paster-protocol: false
     rei-server-protocol: false
     chat-image-protocol: false
   misc:
