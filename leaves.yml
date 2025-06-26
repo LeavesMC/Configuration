@@ -96,13 +96,6 @@ settings:
     renewable-deepslate: false
     renewable-sponges: false
     renewable-coral: 'FALSE'
-    force-peaceful-mode-switch:
-      tick: -1
-      types:
-      - BLAZE
-      - WITHER
-      - SHULKER
-      - WARDEN
     disable-vault-blacklist: false
     exp-orb-absorb-mode: VANILLA
   performance:
