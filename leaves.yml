@@ -54,6 +54,7 @@ settings:
         string-tripwire-hook-duplicate: false
         tripwire-behavior: VANILLA_21
       void-trade: false
+      disable-item-damage-check: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
