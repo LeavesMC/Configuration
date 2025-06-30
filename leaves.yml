@@ -55,6 +55,7 @@ settings:
         tripwire-behavior: VANILLA_21
       void-trade: false
       disable-item-damage-check: false
+      old-throwable-projectile-tick-order: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
