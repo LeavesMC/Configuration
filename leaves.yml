@@ -62,7 +62,7 @@ settings:
       message-start: Flight enter cruise mode
       message-end: Flight exit cruise mode
     redstone-shears-wrench: true
-    budding-amethyst-can-push-by-piston: false
+    movable-budding-amethyst: false
     spectator-dont-get-advancement: false
     stick-change-armorstand-arm-status: true
     snowball-and-egg-can-knockback-player: true
