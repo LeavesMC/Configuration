@@ -11,16 +11,19 @@ settings:
       prefix: ''
       suffix: ''
       regen-amount: 0.0
-      always-send-data: true
       resident-fakeplayer: false
       open-fakeplayer-inventory: false
-      skip-sleep-check: false
-      spawn-phantom: false
       use-action: true
       modify-config: false
       manual-save-and-load: false
       cache-skin: false
-      tick-type: NETWORK
+      in-game:
+        always-send-data: true
+        skip-sleep-check: false
+        spawn-phantom: false
+        tick-type: NETWORK
+        simulation-distance: -1
+        enable-locator-bar: false
     minecraft-old:
       block-updater:
         instant-block-updater-reintroduced: false
@@ -56,6 +59,10 @@ settings:
       void-trade: false
       disable-item-damage-check: false
       old-throwable-projectile-tick-order: false
+      keep-leash-connect-when-use-firework: false
+      tnt-wet-explosion-no-item-damage: false
+      old-projectile-explosion-behavior: false
+      ender-dragon-part-can-use-end-portal: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -71,7 +78,9 @@ settings:
     flatten-triangular-distribution: false
     player-operation-limiter: false
     renewable-elytra: -1.0
-    stackable-shulker-boxes: 'false'
+    shulker-box:
+      stackable-shulker-boxes: 'false'
+      same-nbt-stackable: false
     force-void-trade: false
     mc-technical-survival-mode: true
     return-nether-portal-fix: false
@@ -143,6 +152,11 @@ settings:
       structure-protocol: false
       entity-protocol: false
       hud-metadata-protocol: false
+      hud-logger-protocol: false
+      hud-enabled-loggers:
+      - TPS
+      - MOB_CAPS
+      hud-update-interval: 1
       hud-metadata-protocol-share-seed: true
       litematics-protocol: false
     bbor-protocol: false
@@ -185,5 +199,5 @@ settings:
   fix:
     vanilla-hopper: false
     vanilla-display-name: false
-    collision-behavior: BLOCK_SHAPE_VANILLA
     vanilla-portal-handle: false
+    vanilla-fluid-pushing: true
