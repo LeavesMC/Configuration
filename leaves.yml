@@ -201,3 +201,4 @@ settings:
     vanilla-display-name: false
     vanilla-portal-handle: false
     vanilla-fluid-pushing: true
+    collision-behavior: BLOCK_SHAPE_VANILLA
