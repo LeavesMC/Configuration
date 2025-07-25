@@ -44,7 +44,6 @@ settings:
       disable-LivingEntity-ai-step-alive-check: false
       spawn-invulnerable-time: false
       old-hopper-suck-in-behavior: false
-      old-nether-portal-collision: false
       old-zombie-piglin-drop: false
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
