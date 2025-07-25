@@ -158,7 +158,9 @@ settings:
       - MOB_CAPS
       hud-update-interval: 1
       hud-metadata-protocol-share-seed: true
-      litematics-protocol: false
+      litematics:
+        enable: false
+        max-nbt-size: 2097152
     bbor-protocol: false
     jade-protocol: false
     alternative-block-placement: NONE
