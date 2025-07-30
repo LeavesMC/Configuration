@@ -189,6 +189,7 @@ settings:
     bstats-privacy-mode: false
     force-minecraft-command: false
     leaves-packet-event: true
+    chat-command-max-length: 32767
   region:
     format: ANVIL
     linear:
