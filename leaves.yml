@@ -132,6 +132,7 @@ settings:
     skip-cloning-advancement-criteria: false
     skip-negligible-planar-movement-multiplication: true
     fix-villagers-dont-release-memory: false
+    sleeping-block-entity: false
   protocol:
     bladeren:
       protocol: true
