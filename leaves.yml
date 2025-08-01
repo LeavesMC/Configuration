@@ -201,7 +201,7 @@ settings:
       compression-level: 1
   fix:
     vanilla-hopper: false
-    vanilla-display-name: false
+    vanilla-display-name: true
     vanilla-portal-handle: false
     vanilla-fluid-pushing: true
     vanilla-endermite-spawn: true
