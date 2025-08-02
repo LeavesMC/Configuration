@@ -11,22 +11,26 @@ settings:
       prefix: ''
       suffix: ''
       regen-amount: 0.0
-      always-send-data: true
       resident-fakeplayer: false
       open-fakeplayer-inventory: false
-      skip-sleep-check: false
-      spawn-phantom: false
       use-action: true
       modify-config: false
       manual-save-and-load: false
       cache-skin: false
-      tick-type: NETWORK
+      in-game:
+        always-send-data: true
+        skip-sleep-check: false
+        spawn-phantom: false
+        tick-type: NETWORK
+        simulation-distance: -1
+        enable-locator-bar: false
     minecraft-old:
       block-updater:
         instant-block-updater-reintroduced: false
         cce-update-suppression: false
-        redstone-wire-dont-connect-if-on-trapdoor: false
-        old-block-entity-behaviour: false
+        sound-update-suppression: false
+        redstone-ignore-upwards-update: false
+        old-block-remove-behaviour: false
       shears-in-dispenser-can-zero-amount: false
       armor-stand-cant-kill-by-mob-projectile: false
       villager-infinite-discounts: false
@@ -38,15 +42,26 @@ settings:
       allow-entity-portal-with-passenger: true
       disable-gateway-portal-entity-ticking: false
       disable-LivingEntity-ai-step-alive-check: false
-      fix-fortress-mob-spawn: false
+      spawn-invulnerable-time: false
       old-hopper-suck-in-behavior: false
+      old-zombie-piglin-drop: false
       revert-raid-changes:
         allow-bad-omen-trigger-raid: false
         give-bad-omen-when-kill-patrol-leader: false
         use-old-find-spawn-position: false
         skip-height-check: false
+      old-zombie-reinforcement: false
       allow-anvil-destroy-item-entities: false
-      string-tripwire-hook-duplicate: false
+      tripwire-and-hook-behavior:
+        string-tripwire-hook-duplicate: false
+        tripwire-behavior: VANILLA_21
+      void-trade: false
+      disable-item-damage-check: false
+      old-throwable-projectile-tick-order: false
+      keep-leash-connect-when-use-firework: false
+      tnt-wet-explosion-no-item-damage: false
+      old-projectile-explosion-behavior: false
+      ender-dragon-part-can-use-end-portal: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -55,14 +70,16 @@ settings:
       message-start: Flight enter cruise mode
       message-end: Flight exit cruise mode
     redstone-shears-wrench: true
-    budding-amethyst-can-push-by-piston: false
+    movable-budding-amethyst: false
     spectator-dont-get-advancement: false
     stick-change-armorstand-arm-status: true
     snowball-and-egg-can-knockback-player: true
     flatten-triangular-distribution: false
     player-operation-limiter: false
     renewable-elytra: -1.0
-    stackable-shulker-boxes: 'false'
+    shulker-box:
+      stackable-shulker-boxes: 'false'
+      same-nbt-stackable: false
     force-void-trade: false
     mc-technical-survival-mode: true
     return-nether-portal-fix: false
@@ -76,7 +93,6 @@ settings:
     despawn-enderman-with-block: false
     creative-no-clip: false
     shave-snow-layers: true
-    ignore-lc: false
     disable-packet-limit: false
     lava-riptide: false
     no-block-update-command: false
@@ -85,20 +101,15 @@ settings:
     container-passthrough: false
     avoid-anvil-too-expensive: false
     bow-infinity-fix: false
-    hopper-counter: false
+    hopper-counter:
+      enable: false
+      unlimited-speed: false
     spider-jockeys-drop-gapples: -1.0
     renewable-deepslate: false
     renewable-sponges: false
     renewable-coral: 'FALSE'
-    fast-resume: false
-    force-peaceful-mode-switch:
-      tick: -1
-      types:
-      - BLAZE
-      - WITHER
-      - SHULKER
-      - WARDEN
     disable-vault-blacklist: false
+    exp-orb-absorb-mode: VANILLA
   performance:
     remove:
       tick-guard-lambda: true
@@ -123,6 +134,7 @@ settings:
     skip-cloning-advancement-criteria: false
     skip-negligible-planar-movement-multiplication: true
     fix-villagers-dont-release-memory: false
+    sleeping-block-entity: false
   protocol:
     bladeren:
       protocol: true
@@ -142,15 +154,21 @@ settings:
       structure-protocol: false
       entity-protocol: false
       hud-metadata-protocol: false
+      hud-logger-protocol: false
+      hud-enabled-loggers:
+      - TPS
+      - MOB_CAPS
+      hud-update-interval: 1
       hud-metadata-protocol-share-seed: true
-      litematics-protocol: false
+      litematics:
+        enable: false
+        max-nbt-size: 2097152
     bbor-protocol: false
     jade-protocol: false
     alternative-block-placement: NONE
     xaero-map-protocol: false
     xaero-map-server-id: 0
     leaves-carpet-support: false
-    lms-paster-protocol: false
     rei-server-protocol: false
     chat-image-protocol: false
   misc:
@@ -174,15 +192,19 @@ settings:
     bstats-privacy-mode: false
     force-minecraft-command: false
     leaves-packet-event: true
+    chat-command-max-length: 32767
   region:
     format: ANVIL
     linear:
       version: V2
-      auto-convert-anvil-to-linear: false
       flush-max-threads: 6
       flush-delay-ms: 100
       use-virtual-thread: true
       compression-level: 1
   fix:
     vanilla-hopper: false
-    vanilla-display-name: false
+    vanilla-display-name: true
+    vanilla-portal-handle: false
+    vanilla-fluid-pushing: true
+    vanilla-endermite-spawn: true
+    collision-behavior: BLOCK_SHAPE_VANILLA
