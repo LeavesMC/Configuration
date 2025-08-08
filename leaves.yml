@@ -206,5 +206,4 @@ settings:
     vanilla-display-name: true
     vanilla-portal-handle: false
     vanilla-fluid-pushing: true
-    vanilla-endermite-spawn: true
     collision-behavior: BLOCK_SHAPE_VANILLA
