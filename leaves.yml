@@ -45,11 +45,7 @@ settings:
       spawn-invulnerable-time: false
       old-hopper-suck-in-behavior: false
       old-zombie-piglin-drop: false
-      revert-raid-changes:
-        allow-bad-omen-trigger-raid: false
-        give-bad-omen-when-kill-patrol-leader: false
-        use-old-find-spawn-position: false
-        skip-height-check: false
+      old-raid-behavior: false
       old-zombie-reinforcement: false
       allow-anvil-destroy-item-entities: false
       tripwire-and-hook-behavior:
