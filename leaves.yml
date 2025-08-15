@@ -97,7 +97,7 @@ settings:
     container-passthrough: false
     avoid-anvil-too-expensive: false
     bow-infinity-fix: false
-    counter:
+    hopper-counter:
       enable: false
       unlimited-speed: false
     spider-jockeys-drop-gapples: -1.0
