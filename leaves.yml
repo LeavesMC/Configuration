@@ -65,7 +65,7 @@ settings:
       message: true
       message-start: Flight enter cruise mode
       message-end: Flight exit cruise mode
-    redstone-shears-wrench: true
+    redstone-shears-wrench: false
     movable-budding-amethyst: false
     spectator-dont-get-advancement: false
     stick-change-armorstand-arm-status: true
@@ -129,7 +129,6 @@ settings:
     skip-entity-move-if-movement-is-zero: true
     skip-cloning-advancement-criteria: false
     skip-negligible-planar-movement-multiplication: true
-    fix-villagers-dont-release-memory: false
     sleeping-block-entity: false
   protocol:
     bladeren:
@@ -187,7 +186,7 @@ settings:
     server-mod-name: Leaves
     bstats-privacy-mode: false
     force-minecraft-command: false
-    leaves-packet-event: true
+    leaves-packet-event: false
     chat-command-max-length: 32767
   region:
     format: ANVIL
@@ -200,6 +199,6 @@ settings:
   fix:
     vanilla-hopper: false
     vanilla-display-name: true
-    vanilla-portal-handle: false
+    vanilla-portal-handle: true
     vanilla-fluid-pushing: true
     collision-behavior: BLOCK_SHAPE_VANILLA
