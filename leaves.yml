@@ -74,7 +74,7 @@ settings:
     player-operation-limiter: false
     renewable-elytra: -1.0
     shulker-box:
-      stackable-shulker-boxes: 'false'
+      stackable-shulker-boxes: false
       same-nbt-stackable: false
     force-void-trade: false
     mc-technical-survival-mode: true
