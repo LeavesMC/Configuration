@@ -32,7 +32,6 @@ settings:
         redstone-ignore-upwards-update: false
         old-block-remove-behaviour: false
       shears-in-dispenser-can-zero-amount: false
-      armor-stand-cant-kill-by-mob-projectile: false
       villager-infinite-discounts: false
       copper-bulb-1gt-delay: false
       crafter-1gt-delay: false
@@ -93,7 +92,6 @@ settings:
     lava-riptide: false
     no-block-update-command: false
     no-tnt-place-update: false
-    raider-die-skip-self-raid-check: false
     container-passthrough: false
     avoid-anvil-too-expensive: false
     bow-infinity-fix: false
