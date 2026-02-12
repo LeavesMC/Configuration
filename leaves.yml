@@ -57,6 +57,7 @@ settings:
       tnt-wet-explosion-no-item-damage: false
       old-projectile-explosion-behavior: false
       ender-dragon-part-can-use-end-portal: false
+      old-minecart-motion-behavior: false
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -104,6 +105,7 @@ settings:
     renewable-coral: 'FALSE'
     disable-vault-blacklist: false
     exp-orb-absorb-mode: VANILLA
+    follow-tick-sequence-merge: false
   performance:
     remove:
       tick-guard-lambda: true
@@ -202,3 +204,4 @@ settings:
     vanilla-fluid-pushing: true
     collision-behavior: BLOCK_SHAPE_VANILLA
     vanilla-end-void-rings: false
+    stacked-container-destroyed-drop: true
