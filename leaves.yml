@@ -168,6 +168,9 @@ settings:
     rei-server-protocol: false
     chat-image-protocol: false
   misc:
+    async-keepalive:
+      enable: false
+      timeout-seconds: 20
     auto-update:
       enable: false
       download-source: application
