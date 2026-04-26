@@ -198,6 +198,9 @@ settings:
       version: V2
       flush-max-threads: 6
       flush-delay-ms: 100
+      region-unload-idle-ms: 600000
+      region-unload-check-interval-ms: 30000
+      max-flush-per-run: 256
       use-virtual-thread: true
       compression-level: 1
   fix:
