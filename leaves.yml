@@ -37,7 +37,6 @@ settings:
       crafter-1gt-delay: false
       zero-tick-plants: false
       rng-fishing: false
-      allow-grindstone-overstacking: false
       allow-entity-portal-with-passenger: true
       disable-gateway-portal-entity-ticking: false
       disable-LivingEntity-ai-step-alive-check: false
@@ -58,6 +57,7 @@ settings:
       old-projectile-explosion-behavior: false
       ender-dragon-part-can-use-end-portal: false
       old-minecart-motion-behavior: false
+      allow-inf-nan-motion-values: true
     elytra-aeronautics:
       no-chunk-load: false
       no-chunk-height: 500.0
@@ -113,7 +113,6 @@ settings:
     optimized-dragon-respawn: false
     dont-send-useless-entity-packets: true
     enable-suffocation-optimization: true
-    check-spooky-season-once-an-hour: true
     inactive-goal-selector-disable: false
     reduce-entity-allocations: true
     cache-climb-check: true
@@ -191,7 +190,6 @@ settings:
     bstats-privacy-mode: false
     force-minecraft-command: false
     leaves-packet-event: false
-    chat-command-max-length: 32767
   region:
     format: ANVIL
     linear:
@@ -207,7 +205,5 @@ settings:
     vanilla-hopper: false
     vanilla-display-name: true
     vanilla-portal-handle: true
-    vanilla-fluid-pushing: true
-    collision-behavior: BLOCK_SHAPE_VANILLA
-    vanilla-end-void-rings: false
+    collision-behavior: PAPER
     stacked-container-destroyed-drop: true
