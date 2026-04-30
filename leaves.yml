@@ -81,6 +81,7 @@ settings:
     return-nether-portal-fix: false
     use-vanilla-random: false
     fix-update-suppression-crash: true
+    fix-stuck-zombified-piglin-anger-target: false
     bedrock-break-list: false
     disable-distance-check-for-use-item: false
     no-feather-falling-trample: false
