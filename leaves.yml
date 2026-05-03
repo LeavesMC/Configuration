@@ -132,6 +132,7 @@ settings:
     sleeping-block-entity: false
     equipment-tracking: false
   protocol:
+    strict-mode: false
     bladeren:
       protocol: true
       mspt-sync-protocol: false
